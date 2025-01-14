@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-x!4bq-=(2pl$h^0!w2=l5f6$t0jr*x_m_j*#8po*4u1-y3dgxe'
 DEBUG = config('DEBUG', default=True, cast=bool)
 
-ALLOWED_HOSTS = ['*','127.0.0.1', '.vercel.app']
+ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
 
 
 CORS_ALLOW_ALL_ORIGINS = True
